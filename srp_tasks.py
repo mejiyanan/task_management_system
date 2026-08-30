@@ -95,4 +95,6 @@ if __name__ == "__main__":
     manager.list_tasks()
     manager.mark_task_completed(1)
     manager.list_tasks()
+
+    print("Finished")
     # Note: Logic สําหรับ Save/Load ยังไม่ครบถ้วน จะเพิ่มในภายหลังโดยใช้หลักการ Single Responsibility Principle (SRP)
